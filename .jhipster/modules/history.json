@@ -125,5 +125,19 @@
       "indentSize" : 2,
       "springConfigurationFormat" : "yaml"
     }
+  }, {
+    "module" : "maven-wrapper",
+    "date" : "2024-09-16T12:39:52.811654648Z",
+    "properties" : {
+      "packageName" : "com.mycompany.myapp",
+      "projectName" : "JHipster Sample Application",
+      "baseName" : "jhipsterSampleApplication",
+      "serverPort" : 8080,
+      "endOfLine" : "lf",
+      "keycloakClientScopeName" : "jhipster",
+      "keycloakRealmName" : "jhipster",
+      "indentSize" : 2,
+      "springConfigurationFormat" : "yaml"
+    }
   } ]
 }
