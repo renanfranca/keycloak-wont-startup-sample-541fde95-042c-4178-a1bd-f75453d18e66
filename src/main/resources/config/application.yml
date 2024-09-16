@@ -6,3 +6,5 @@ logging:
 spring:
   application:
     name: JhipsterSampleApplication
+server:
+  port: 8080
