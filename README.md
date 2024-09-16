@@ -29,6 +29,10 @@ npm install
 
 ## Start up
 
+```bash
+docker compose -f src/main/docker/keycloak.yml up -d
+```
+
 
 <!-- jhipster-needle-startupCommand -->
 

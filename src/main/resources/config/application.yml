@@ -6,5 +6,20 @@ logging:
 spring:
   application:
     name: JhipsterSampleApplication
+  security:
+    oauth2:
+      client:
+        provider:
+          oidc:
+            issuer-uri: http://localhost:9080/realms/jhipster
+        registration:
+          oidc:
+            client-id: web_app
+            client-secret: web_app
+            scope: openid,profile,email
 server:
   port: 8080
+application:
+  security:
+    oauth2:
+      audience: account,api://default
